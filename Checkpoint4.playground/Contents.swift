@@ -46,7 +46,6 @@ func acceptsNumber(squareOf number: Int) throws -> Int {
     
     for i in 1...number {
         let outPut = i * i
-//        print("\(i) ---- \(outPut)")
         if i % 2 == 0 {
             if outPut == number {
                 return Int(Double(i))
