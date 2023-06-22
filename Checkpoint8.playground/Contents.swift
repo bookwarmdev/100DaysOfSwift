@@ -61,5 +61,3 @@ let myHome = Home();
 
 print(myHome.summary())
 print(myOffice.summary())
-
-
